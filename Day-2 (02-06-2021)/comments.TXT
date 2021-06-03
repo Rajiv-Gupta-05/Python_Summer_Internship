@@ -1,0 +1,16 @@
+1: Comments:
+
+Program Code:
+ #This is a Comment
+print("Hello Rajiv WELCOME in Pycharm....")
+
+'''This is example
+    of multi-line
+    Comments
+'''
+"""This is also 
+   an example of 
+   multiline comments.
+
+""""
+

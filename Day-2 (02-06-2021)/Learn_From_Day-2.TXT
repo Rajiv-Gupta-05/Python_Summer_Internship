@@ -1,0 +1,40 @@
+DAY-2 :- Comments, Variables and Datatypes:
+.............................................................................................................................................................................
+
+1) comments:  using # or to use triple quotes either''' or """.
+
+2) variable : Python variables do not need explicit declaration to reserve memory space. The declaration happens automatically when you assign a value to a variable. 
+            The equal sign (=) is used to assign values to variables.
+            The operand to the left of the = operator is the name of the variable and the operand to the right of the = operator is the value stored in the variable.
+            A variable is named location used to store data in the memory.
+            we learn different ways to assign variables values in python.
+
+3) Data types: 6 types: Numbers, String, List, Tuple, Dictionary, Boolean.
+ 1: Number datatype:- it stores numeric values. int, float, and complex numbers falls under number datatype.
+    type() fun is used to know which class a variable or a value belongs to.
+    instance() func is used to check if an object belongs to a particular class.
+ 2: String Datatype:- we can use single or double quote for defining the string.
+ 3: List Datatype:- similar to arrays. it is one of the most used datatype in python and is very flexible.
+                    they can contain any type of variable, and they can contain as many variables as you wish.
+                    all the items in a list do need to be of the same type.
+
+                    Lists are the most versatile of Python's compound data types. A list contains items separated by commas and enclosed within square brackets ([]). 
+                    To some extent, lists are similar to arrays in C. One difference between them is that all the items belonging to a list can be of different data type.
+                    The values stored in a list can be accessed using the slice operator ([ ] and [:]) with indexes starting at 0 in the beginning of the list and working 
+                    their way to end -1. The plus (+) sign is the list concatenation operator, and the asterisk (*) is the repetition operator.
+
+ 4: Tuple Datatype:- immutable, once created can't be modified. list are inclosed in bracket and their elements and size can be changed, 
+                     while tuple are enclosed in parentheses and can't be updated.
+
+                     A tuple is another sequence data type that is similar to the list. A tuple consists of a number of values separated by commas. 
+                     Unlike lists, however, tuples are enclosed within parentheses.
+                     The main differences between lists and tuples are: Lists are enclosed in brackets ( [ ] ) and their elements and size can be changed, 
+                     while tuples are enclosed in parentheses ( ( ) ) and cannot be updated. Tuples can be thought of as read-only lists.
+
+    error in tuple:- we can use the slicing operator[] to extract items but we cannit change its value.
+
+ 5: Dictionary Datatype:- kind of hash table type, are enclosed by curly braces and values can be assigned and accesed using square braces.
+
+ Note: Examples of discussion in day-2 are in Day-2_Task.txt
+
+.............................................................................................................................................................................. 

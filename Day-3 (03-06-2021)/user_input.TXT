@@ -1,0 +1,16 @@
+program code:
+
+name=input("Enter Name :")
+print("Name is :", name)
+
+n1=int(input('Enter num1:'))
+n2=int(input('Enter num2 :'))
+ans=n1+n2
+print('Sum is :',ans)
+
+Output:
+Enter Name :Rajiv
+Name is : Rajiv
+Enter num1:10
+Enter num2 :20
+Sum is : 30

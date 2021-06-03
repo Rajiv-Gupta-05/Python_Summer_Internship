@@ -1,0 +1,33 @@
+program code:
+
+n1=10
+n2=20
+if n1>n2:
+    print("n1 is greater than n2 ")
+
+if n2>n1:
+    print("n2 is grater than n1")
+
+Output:
+n2 is grater than n1
+
+OR:
+
+program code:
+
+# If the number is positive, we print an appropriate message
+
+num = 3
+if num > 0:
+    print(num, "is a positive number.")
+print("This is always printed.")
+
+num = -1
+if num > 0:
+    print(num, "is a positive number.")
+print("This is also always printed.")
+
+Output:
+3 is a positive number.
+This is always printed.
+This is also always printed.

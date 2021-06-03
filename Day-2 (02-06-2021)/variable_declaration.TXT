@@ -1,0 +1,28 @@
+2: Variable Declaration:
+
+Program Code:
+n1=10
+n2=10.5
+name="Rajiv"
+
+print(n1)
+print("n2 is",n2)
+print("Name is", name)
+
+Output:
+10
+n2 is 10.5
+Name is Rajiv
+
+or:
+
+a=b=c="Rajiv"
+
+print("This is:",a)
+print("This is:",b)
+print("This is:",c)
+
+Output:
+This is: Rajiv
+This is: Rajiv
+This is: Rajiv

@@ -1,0 +1,99 @@
+Day-3:-  how to take value from the user & how to define conditional statement in our python:
+         Functional Conditional Statements:
+         Loops Statement:
+         Range Function:
+         Break and Continue Statement:
+         Pass Statemet in Python:
+
+1) User Input : Python provides numerous built-in functions that are readily available to us at the Python prompt.
+             Some of the functions like input() and print() are widely used for standard input and output operations respectively. Let us see the output section first.
+             We use the print() function to output data to the standard output device (screen). We can also output data to a file.
+2) Typecasting : Type Casting is the method to convert the variable data type into a certain data type in order to the operation required to be performed by users. 
+
+3) Conditional Statement:
+ if statement:
+             syntax: if test expression:
+                     statement(s)
+             In Python, the body of the if statement is indicated by the indentation. The body starts with an indentation and the first unindented line marks the end.
+
+ if...else statement:
+                     Syntax: 
+                           if test expression:
+                               Body of if
+                           else:
+                               Body of else
+                     The if..else statement evaluates test expression and will execute the body of if only when the test condition is True.
+
+ if...elif...else statement: The elif is short for else if. It allows us to check for multiple expressions.
+                           If the condition for if is False, it checks the condition of the next elif block and so on.
+                           If all the conditions are False, the body of else is executed.
+                           Only one block among the several if...elif...else blocks is executed according to the condition.
+                           The if block can have only one else block. But it can have multiple elif blocks.
+                           Syntax:
+                           if test expression:
+                              Body of if
+                           elif test expression:
+                              Body of elif
+                           else: 
+                              Body of else
+
+ nested if statement: We can have a if...elif...else statement inside another if...elif...else statement. This is called nesting in computer programming.
+                      Any number of these statements can be nested inside one another. Indentation is the only way to figure out the level of nesting. 
+                      They can get confusing, so they must be avoided unless necessary.
+
+4) Loops Statement:
+  While loop statement: 
+                      In python, while loop is used to execute a block of statements repeatedly until a given a condition is satisfied. 
+                      And when the condition becomes false, the line immediately after the loop in program is executed. 
+                      In the while loop, test expression is checked first. 
+                      The body of the loop is entered only if the test_expression evaluates to True. After one iteration, the test expression is checked again. 
+                      This process continues until the test_expression evaluates to False.
+                      In Python, the body of the while loop is determined through indentation.
+                      The body starts with indentation and the first unindented line marks the end.
+
+Python interprets any non-zero value as True. None and 0 are interpreted as False.
+Syntax :
+while expression:
+    statement(s)
+
+  For Loop Statement:
+                     The for loop in Python is used to iterate over a sequence (list, tuple, string) or other iterable objects. Iterating over a sequence is called traversal.
+
+Syntax of for Loop
+for val in sequence:
+    Body of for
+                     Here, val is the variable that takes the value of the item inside the sequence on each iteration.
+                     Loop continues until we reach the last item in the sequence. The body of for loop is separated from the rest of the code using indentation.
+
+  Nested loop statement:Python programming language allows to use one loop inside another loop.
+  syntax:
+for iterating_var in sequence:
+   for iterating_var in sequence:
+      statements(s)
+   statements(s)
+
+5) Range Function:
+                  we can generate a sequence of numbers using range() function.
+                  Example: range(10) will generate frop 0 to 9 (10 numbers)
+                  we can also define the start, stop and step size as range(start,stop,step size). step size defaults to 1 if not provided.
+                  An alternative way of iterating through each item is by index. for that we have to use range() function along with len() function.
+                  The len() function provies the total number of elements in the tuple, the range() function give us the actual sequence to iterate over.
+ 
+6) Loop with else:
+A loop can have an optional else block as well.
+If the else statement is used with a for loop, the else statement is executed when the loop has exhausted iterating the list.
+If the else statement is used with a while loop, the else statement is executed when the condition becomes false.
+
+7) Break and Continue Statement:
+  Break:The break statement in Python terminates the current loop and resumes execution at the next statement, just like the traditional break found in C. 
+       This is used to exit a for loop or a while loop
+  Continue:The continue statement in Python returns the control to the beginning of the while loop. 
+           The continue statement rejects all the remaining statements in the current iteration of the loop and moves the control back to the top of the loop. 
+           This is used to skip the current block, and return to the "for" or "while" statement
+
+8) Pass Statemet:
+   In Python programming, the pass statement is a null statement. The difference between a comment and a pass statement in Python is that while the interpreter ignores a comment entirely, pass is not ignored.
+   The pass statement is used as a placeholder for future code. When the pass statement is executed, nothing happens, but you avoid getting an error when empty code is not allowed. 
+   Empty code is not allowed in loops, function definitions, class definitions, or in if statements
+
+       
