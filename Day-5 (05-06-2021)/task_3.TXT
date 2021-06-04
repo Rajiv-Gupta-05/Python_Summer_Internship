@@ -1,0 +1,12 @@
+program code:
+
+class Myclass:
+    def func1(self,n1,n2):
+        ans=n1+n2
+        print("Ans is :",ans)
+a=Myclass()
+a.func1(14,78)
+
+Output:
+
+Ans is : 92

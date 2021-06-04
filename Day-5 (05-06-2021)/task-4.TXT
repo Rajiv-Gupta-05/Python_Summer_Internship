@@ -1,0 +1,22 @@
+program code:
+
+class Hello:
+    def myfunction(self):
+        print("This is a method of class hello")
+
+    def show(self, name):
+        print("Value is", name)
+
+    def __init__(self):
+        print("This is hello class")
+
+
+a = Hello()
+a.myfunction()
+a.show("Rajiv")
+
+Output:
+
+This is hello class
+This is a method of class hello
+Value is Rajiv
