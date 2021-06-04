@@ -1,0 +1,15 @@
+program code:
+
+def myfunction(name):
+   print("Hello Rajiv...")
+   print("name is:",name)
+   return name
+
+name=myfunction("Rajiv")
+print("value is :",name)
+ 
+
+Output:
+Hello Rajiv...
+name is: Rajiv
+value is : Rajiv

@@ -1,0 +1,11 @@
+program code:
+
+def foo():
+    y = "local"
+    print(y)
+
+foo()
+
+Output:
+
+local

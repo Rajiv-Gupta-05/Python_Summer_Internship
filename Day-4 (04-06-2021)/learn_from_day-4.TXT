@@ -1,0 +1,73 @@
+Day-4:
+      Functions in Python:
+      In Python, a function is a group of related statements that performs a specific task.
+      Functions help break our program into smaller and modular chunks. As our program grows larger and larger, functions make it more organized and manageable.
+      Furthermore, it avoids repetition and makes the code reusable.
+      Syntax:
+      def function_name(parameters):
+	"""docstring"""
+	statement(s)
+
+Python Function Arguments:
+ 1) Default arguments:
+                      A default argument is an argument that assumes a default value if a value is not provided in the function call for that argument. 
+                      The following example gives an idea on default arguments, it prints default age if it is not passed −
+
+ 2) Keyword arguments:
+                     Keyword arguments are related to the function calls. When you use keyword arguments in a function call, the caller identifies the arguments by the parameter name.
+                     This allows you to skip arguments or place them out of order because the Python interpreter is able to use the keywords provided to match the values with parameters. 
+                     You can also make keyword calls to the printme() function
+
+ 3) Variable_length arguments:
+                              You may need to process a function for more arguments than you specified while defining the function. 
+                              These arguments are called variable-length arguments and are not named in the function definition, unlike required and default arguments.
+
+Syntax for a function with non-keyword variable arguments is this −
+
+def functionname([formal_args,] *var_args_tuple ):
+   "function_docstring"
+   function_suite
+   return [expression]
+An asterisk (*) is placed before the variable name that holds the values of all nonkeyword variable arguments. 
+This tuple remains empty if no additional arguments are specified during the function call.
+
+Scope_Of_Variables:
+                   In Python, variables are the containers for storing data values. They are reference, or pointers, to an object in memory 
+                   which means that whenever a variable is assigned to an instance, it gets mapped to that instance. Unlike other languages like C/C++/JAVA, Python is not 
+                   “statically typed”. We do not need to declare variables before using them or declare their type. A variable is created the moment we first assign a value to it.
+
+ 1) Global variable:
+                    In Python, a variable declared outside of the function or in global scope is known as a global variable. 
+                    This means that a global variable can be accessed inside or outside of the function.
+
+ 2) Local variable:
+                   A variable declared inside the function's body or in the local scope is known as a local variable.
+
+Modules in Python:
+                  Modules refer to a file containing Python statements and definitions.
+                  A file containing Python code, for example: example.py, is called a module, and its module name would be example.
+                  We use modules to break down large programs into small manageable and organized files. Furthermore, modules provide reusability of code.
+                  We can define our most used functions in a module and import it, instead of copying their definitions into different programs.
+
+Operators in Python: Operators are special symbols in Python that carry out arithmetic or logical computation. The value that the operator operates on is called the operand.
+                    1) Arithmetic Operator
+Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication, etc.
+
+                    2) Comparison Operator
+Comparison operators are used to compare values. It returns either True or False according to the condition.
+
+                    3) Logical Operator
+Logical operators are the and, or, not operators.
+
+                    4) Assignment Operator
+Assignment operators are used in Python to assign values to variables.
+a = 5 is a simple assignment operator that assigns the value 5 on the right to the variable a on the left.
+There are various compound operators in Python like a += 5 that adds to the variable and later assigns the same. It is equivalent to a = a + 5.
+
+                    5) Membership Operator
+in and not in are the membership operators in Python. They are used to test whether a value or variable is found in a sequence (string, list, tuple, set and dictionary).
+In a dictionary we can only test for presence of key, not the value.
+
+                    6) Identify Operator
+is and is not are the identity operators in Python. They are used to check if two values (or variables) are located on the same part of the memory. Two variables that are equal does not imply that they are identical.
+

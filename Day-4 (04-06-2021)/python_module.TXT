@@ -1,0 +1,22 @@
+Example.
+in the following example we create 2 files:-
+ -scratch.py
+ -demo.py
+scratch.py file contain user define function my_function() that we will import in demo.py file.
+
+demo.py code:
+def myfunction(name):
+    print("Hello Rajiv This is my Function of Demo File..")
+    return name
+
+scratch.py code:
+import demo
+
+name=demo.myfunction('Rajiv')
+print('name is:',name)
+
+
+Output:
+
+Hello Rajiv This is my Function of Demo File..
+name is: Rajiv

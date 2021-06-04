@@ -1,0 +1,15 @@
+program code:
+
+# Python program to demonstrate Keyword Arguments
+def student(firstname, lastname):
+	print(firstname, lastname)
+
+
+# Keyword arguments
+student(firstname='Rajiv', lastname='Gupta')
+student(lastname='Gupta', firstname='Rajiv')
+
+
+Output:
+Rajiv Gupta
+Rajiv Gupta
