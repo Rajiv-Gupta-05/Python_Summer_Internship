@@ -1,0 +1,22 @@
+program code:
+
+a = 23
+b = 11
+c = 9.5
+s1 = "Hello"
+s2 = "There!"
+print(a + b)
+print(type(a + b))
+print(b + c)
+print(type (b + c))
+print(s1 + s2)
+print(type(s1 + s2))
+
+Output:
+
+34
+<class 'int'>
+20.5
+<class 'float'>
+HelloThere!
+<class 'str'>

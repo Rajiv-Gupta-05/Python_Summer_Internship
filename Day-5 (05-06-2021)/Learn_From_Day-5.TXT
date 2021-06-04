@@ -1,0 +1,74 @@
+DAY-5:
+      Class: A class is a blue print for the object. classes are defined by the "class" keyword.
+             Class name in python is preceded with class keyword followed by colon(:)
+             Classes commonly contains data fields to store the data and methods for defining behaviours.
+      Syntax: class Myclass
+      
+      Object: is an instance of class.
+      Syntax: myc=Myclass()
+             Here, myc is object of class Myclass.
+
+Method: is called by its name, but it is assosiates to an object (dependent). It may or may not return any data.
+       A method can operate on the data (instance variable) that is contained by the corresponding class.
+
+Functions: is block of code that is also called by it's name.(independent). It may or may not return any data.
+          Functions does not deal with class and its instance concept.
+
+What is self?
+-> All methods in python including some special methods like initializer have first parameter self.
+   This parameter refers to the object which invokes the method.
+   When you create newobject the self parameter in the__init__method is automatically set to reference the object you have just created.
+
+ NOTE: Everything in a class is indented, just like the code in the function, loop, if statement, etc. Anything not indented is not in the class.
+
+Python_Constructor:
+-> A constructor is a function that instantiates an object to predefined values.
+   it begins with a double underscore(_). it__init__() method.
+ Two types of Constructor:
+    1) Default Constructor: 
+                           The default constructor is simple constructor which doesn’t accept any arguments.
+                           It’s definition has only one argument which is a reference to the instance being constructed.
+
+    2) Parameterized Constructor:
+                                constructor with parameters is known as parameterized constructor.
+                                The parameterized constructor take its first argument as a reference to the instance being constructed known as self and 
+                                the rest of the arguments are provided by the programmer.
+
+Inheritance:
+           Inheritance is the capability of one class to derive or inherit the properties from another class. The benefits of inheritance are: 
+           It represents real-world relationships well.
+           It provides reusability of a code. We don’t have to write the same code again and again. Also, it allows us to add more features to a class without modifying it.
+           It is transitive in nature, which means that if class B inherits from another class A, then all the subclasses of B would automatically inherit from class A.
+Different forms of Inheritance: 
+1. Single inheritance: When a child class inherits from only one parent class, it is called single inheritance. We saw an example above.
+2. Multiple inheritance: When a child class inherits from multiple parent classes, it is called multiple inheritance. 
+Unlike Java and like C++, Python supports multiple inheritance. We specify all parent classes as a comma-separated list in the bracket.
+3. Multilevel inheritance: When we have a child and grandchild relationship.
+4. Hierarchical inheritance More than one derived classes are created from a single base.
+5. Hybrid inheritance: This form combines more than one form of inheritance. Basically, it is a blend of more than one type of inheritance.
+
+Private members of parent class 
+We don’t always want the instance variables of the parent class to be inherited by the child class i.e. 
+we can make some of the instance variables of the parent class private, which won’t be available to the child class. 
+We can make an instance variable by adding double underscores before its name. 
+
+
+Polymorphism:
+            Polymorphism means multiple forms. In python we can find the same operator or function taking multiple forms. 
+            It also useful in creating different classes which will have class methods with same name. 
+            That helps in re using a lot of code and decreases code complexity. Polymorphism is also linked to inheritance.
+
+->Override means having two methods with the same name but doing different tasks. It means that one of the methods overrides the other.
+->If there is any method in the superclass and a method with the same name in a subclass, then by executing the method, the method of the corresponding class be executed.
+
+
+
+
+
+
+
+
+
+
+
+

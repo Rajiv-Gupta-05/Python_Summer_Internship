@@ -1,0 +1,17 @@
+program code:
+
+str = 'Hi There !'
+tup = ('Mon','Tue','wed','Thu','Fri')
+lst = ['Jan','Feb','Mar','Apr']
+dict = {'1D':'Line','2D':'Triangle','3D':'Sphere'}
+print(len(str))
+print(len(tup))
+print(len(lst))
+print(len(dict))
+
+Output:
+
+10
+5
+4
+3
